@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mkdir -p ./out
+cobc -free -x -o "./out/$1" "$1".cob && ./out/"$1"
